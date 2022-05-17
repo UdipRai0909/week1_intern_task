@@ -1,0 +1,198 @@
+<!-- 
+Form containing these (inputs with labels):
+1. Name
+2. Email
+3. Password
+4. Birthday [year, month & day]
+5. Phone (10 digit, no char)
+6. Gender [Radio]
+7. Hobbies (Checkbox)
+   - Football
+   - Singing
+   - Cricket 
+8. Tell about yourself (min:10, max:250) -> Text Area
+9. Submit (no action) -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./img/udip_logo.png" type="image/x-icon" />
+    <title>Week 1 - Intern (HTML Form)</title>
+
+    <!-- Font Awesome Icons 6.1.1 CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+
+  <body>
+    <div id="form-box">
+      <form action="">
+        <fieldset>
+          <legend class="common-bg">Sample Form</legend>
+
+          <!-- Name -->
+          <div class="form-class">
+            <label for="name">Name <small>(3 to 30 characters)</small></label>
+            <div>
+              <i class="fa-solid fa-circle-user"></i>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                minlength="3"
+                maxlength="30"
+                size="10"
+                required
+              />
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="form-class">
+            <label for="email">Email</label>
+
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                pattern=".+@globex\.com"
+                size="30"
+                required
+              />
+            </div>
+          </div>
+
+          <!-- Password -->
+          <div class="form-class">
+            <label for="pass"
+              >Password <small>(8 characters minimum)</small></label
+            >
+            <div>
+              <i class="fa-solid fa-key"></i>
+              <input
+                type="password"
+                id="pass"
+                name="password"
+                minlength="8"
+                required
+              />
+            </div>
+          </div>
+
+          <!--  Birthday -->
+          <div class="form-class">
+            <label for="dob">Birthday</label>
+            <div>
+              <i class="fa-solid fa-cake-candles"></i>
+              <input
+                type="date"
+                id="dob"
+                name="dob"
+                value="2019-12-07"
+                min="1900-01-01"
+                max="2099-12-31"
+                required
+              />
+            </div>
+          </div>
+
+          <!--  Phone -->
+          <div class="form-class">
+            <label for="phone">Enter your phone number</label>
+            <div>
+              <i class="fa-solid fa-phone"></i>
+              <input
+                type="number"
+                id="phone"
+                name="phone"
+                pattern="[0-9]"
+                placeholder="Only numbers.."
+                minlength="10"
+                required
+              />
+            </div>
+            <small>Format: 123456789</small>
+          </div>
+
+          <!-- Gender -->
+          <div class="form-class gender">
+            <label for="gender">Gender</label>
+            <div>
+              <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="male"
+                checked
+              />
+              <label for="male"><small>Male</small></label>
+              <i class="fa-solid fa-mars"></i>
+
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female"><small>Female</small></label>
+              <i class="fa-solid fa-venus"></i>
+            </div>
+          </div>
+
+          <!-- Hobbies -->
+          <div class="form-class hobbies">
+            <label for="hobbies">Hobbies</label>
+            <div>
+              <input type="checkbox" id="football" name="hobbies" checked />
+              <label for="football"><small>Football</small></label>
+              <i class="fa-solid fa-futbol"></i>
+
+              <input type="checkbox" id="singing" name="hobbies" />
+              <label for="singing"><small>Singing</small></label>
+              <i class="fa-solid fa-music"></i>
+
+              <input type="checkbox" id="cricket" name="hobbies" />
+              <label for="cricket"><small>Cricket</small></label>
+              <i class="fa-solid fa-person-running"></i>
+            </div>
+          </div>
+
+          <!-- Tell about yourself -->
+          <div class="form-class">
+            <label for="story"
+              ><i class="fa-solid fa-file-pen"></i> Tell us your story</label
+            >
+            <textarea
+              id="story"
+              name="story"
+              rows="3"
+              cols="33"
+              minlength="10"
+              maxlength="250"
+            ></textarea>
+          </div>
+
+          <!-- Submit -->
+          <div class="form-class">
+            <input
+              id="sample-btn"
+              class="common-bg"
+              name="sample-btn"
+              type="submit"
+              value="Submit"
+            />
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+/* Global css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Helvetica, Arial, Sans-Serif;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+body {
+  height: 100vh;
+  background: url(./img/batman_theme.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+small {
+  font-style: italic;
+}
+
+fieldset {
+  margin-top: 0.6rem;
+  border: 0;
+}
+
+input {
+  padding: 0.2rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: none !important;
+  border: 1px solid red;
+  box-shadow: 0 0 7px rgba(255, 255, 255, 0.9);
+}
+
+.common-bg {
+  background: rgb(205, 108, 108);
+  color: #fff;
+  padding: 0.5rem !important;
+  text-align: center;
+  font-size: 1.1rem !important;
+  outline: 0;
+  border: 1px solid;
+}
+/* / Global css */
+
+/* Form container */
+div#form-box {
+  width: 400px;
+}
+
+div#form-box form {
+  border: 1px solid rgb(255, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+}
+
+div#form-box div.form-class {
+  width: 100%;
+  margin-bottom: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+div#form-box div.form-class div {
+  display: flex;
+  align-items: center;
+}
+
+div#form-box form legend {
+  margin-bottom: 0.6rem;
+}
+
+div#form-box form input[type="text"],
+div#form-box form input[type="password"],
+div#form-box form input[type="email"],
+div#form-box form input[type="number"],
+div#form-box form input[type="date"],
+div#form-box form textarea {
+  width: 100%;
+  padding: 0.4rem;
+  padding-left: 1.8rem !important;
+  padding-right: 0.6rem !important;
+}
+
+div#form-box form textarea {
+  margin-top: 0.1rem;
+  padding: 0.6rem !important;
+}
+
+div#form-box form input[type="radio"],
+div#form-box form input[type="checkbox"] {
+  margin-left: 2rem;
+  margin-right: 0.2rem;
+}
+
+div#form-box form div.gender,
+div#form-box form div.hobbies {
+  margin-bottom: 0.1rem;
+}
+
+div#form-box form div.gender div,
+div#form-box form div.hobbies div {
+  margin-top: -0.6rem;
+}
+
+div#form-box form div.gender input#male,
+div#form-box form div.hobbies input#football {
+  margin-left: 0rem;
+}
+
+div#form-box form input#sample-btn {
+  padding: 0.3rem;
+  padding-bottom: 0.2rem;
+  font-size: 1rem;
+}
+
+div#form-box div.form-class:last-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+div#form-box div.form-class:last-child input:hover {
+  background-color: #fff;
+  color: rgb(205, 108, 108);
+}
+/* / Form container */
+
+/* Icons inside input tags of the form */
+div#form-box div.form-class div i {
+  padding: 10px;
+  padding-left: 8px;
+  min-width: 25px;
+  position: absolute;
+  color: #000;
+}
+
+div#form-box div.form-class.gender div i,
+div#form-box div.form-class.hobbies div i,
+i.fa-file-pen {
+  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+}
+
+/* / Icons inside input tags of the form */
