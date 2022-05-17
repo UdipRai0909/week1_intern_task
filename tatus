@@ -1,0 +1,175 @@
+[33mcommit a62b3c03fc0ef7f94fc6c240714793921807b59a[m[33m ([m[1;36mHEAD -> [m[1;32mbranch1[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/branch1[m[33m, [m[1;32mmain[m[33m)[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 15:24:34 2022 +0545
+
+    Tested commit
+
+[33mcommit 109af32613a654fc41fa0f16c0c411f6e74a1cec[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m, [m[1;32mbranch2[m[33m)[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 14:00:45 2022 +0545
+
+    Added a file in branch1
+
+[33mcommit a37ff9d2f91c0bb5d03919e7c550b8f063da2598[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 13:52:15 2022 +0545
+
+    Added a file in branch1
+
+[33mcommit 82af19247e7d8fbf0b9a3e380887e939983520ae[m[33m ([m[1;31morigin/branch2[m[33m, [m[1;32mranch1[m[33m)[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 13:39:01 2022 +0545
+
+    Test commit
+
+[33mcommit cec114f51acd1f5c6440d56e7b76657c744a78d1[m
+Merge: 7f97566 2edfedf
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 13:38:10 2022 +0545
+
+    Merge branch 'main' of https://github.com/UdipRai0909/week1_intern_task
+
+[33mcommit 7f97566d7e5d0713c009b5967259716f4a1d9fd4[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 13:36:53 2022 +0545
+
+    Test 1 commit
+
+[33mcommit 2edfedfea00157113f46aee1ccd95cb0c6dccb9c[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 13:26:00 2022 +0545
+
+    Test 1 commit
+
+[33mcommit dacc9a39474f964bc08cbf0af2022a5e334e5649[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 13:03:35 2022 +0545
+
+    Ignored final after removing cache
+
+[33mcommit 603e0740795d6246010434b025e9ddfd3b0528a6[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 13:01:45 2022 +0545
+
+    Ignored final
+
+[33mcommit 82a0b94d7ee4fa2cc121d7ce28267f4fb0377990[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:58:42 2022 +0545
+
+    Ignored final
+
+[33mcommit a2975086f69695747ecc86d3e7705c1f79e21d49[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:57:39 2022 +0545
+
+    Ignored final
+
+[33mcommit 99205d7c51e1058eccfb15b793f1de5913d4c83e[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:56:50 2022 +0545
+
+    Ignored final
+
+[33mcommit 6944fe5f2d411cec2ac4e52f4030d445ceef26ef[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:35:15 2022 +0545
+
+    Ignored final
+
+[33mcommit 471caa12b63fdeb0e13688155d69b305e24c9d18[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:34:37 2022 +0545
+
+    Ignored final
+
+[33mcommit 3e0ce60d0c8c322bc3cac10828c003daa32d5a6a[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:33:58 2022 +0545
+
+    Ignored file3 document for real
+
+[33mcommit a27e4ead90a0b0069f3f118fb9005a801a6b09e0[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:33:00 2022 +0545
+
+    Ignored file3 document
+
+[33mcommit cbeecbc78629235af5db52a0cb9a4db8c802a798[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:32:28 2022 +0545
+
+    Ignored file3 document
+
+[33mcommit b3b50f4c8ecf932cba9f9c48373a3eb33b64a39d[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:31:31 2022 +0545
+
+    Ignored file3 document
+
+[33mcommit 89c22240a2e8467697ee3084275511d2d845c373[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:30:57 2022 +0545
+
+    Ignored file3 document
+
+[33mcommit a73a5236a2e90df82127efd835ed2cfabdc1ec7c[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:30:38 2022 +0545
+
+    Ignored file3 document
+
+[33mcommit 7fbcf3d001b0b252fd43a62056b3324c7ffbd123[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:30:16 2022 +0545
+
+    Ignored file3 document
+
+[33mcommit 51d6088426593a0602eeafb5a072b769f2e4114b[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:29:56 2022 +0545
+
+    Ignored file3 document
+
+[33mcommit 59f38cadda1c56e7b873e2afe84a5865800ee10b[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:28:11 2022 +0545
+
+    Ignored file3 document
+
+[33mcommit 451135af8c6f011d54cf0883aeabb901ce9b1d5e[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:27:45 2022 +0545
+
+    Ignored file3 document
+
+[33mcommit ed6c2db2d05940c3f5df03c551f99d6a3b222e6e[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:26:40 2022 +0545
+
+    Ignored file3 document
+
+[33mcommit eb4ebe8130c64475d70a58b9c61fbd0276ea0908[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:25:52 2022 +0545
+
+    Ignored file1 folder and file3 document
+
+[33mcommit 5ab478d6aca3d38340b511b22ddaeb92b8bbbd8f[m
+Merge: 554b9f5 cced0bf
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:04:54 2022 +0545
+
+    Merge branch 'main' of https://github.com/UdipRai0909/week1_intern_task
+
+[33mcommit 554b9f5c9902f74218ae50317127a38fc12bbb84[m
+Author: udiprai0909 <udiprai28@gmail.com>
+Date:   Tue May 17 12:00:20 2022 +0545
+
+    First Commit
+
+[33mcommit cced0bf0ded21473784cb2f4b0390304cf9fce98[m
+Author: Udip Rai <51804975+UdipRai0909@users.noreply.github.com>
+Date:   Tue May 17 11:57:33 2022 +0545
+
+    Initial commit
