@@ -3,4 +3,4 @@
 
 # ignore the file
 file3.php
-!plan.txt
+!*plan.txt
