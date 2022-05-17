@@ -2,5 +2,5 @@
 /file1
 
 # ignore the file
-!file3.md
+file3.php
 !plan.txt
