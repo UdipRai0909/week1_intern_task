@@ -1,5 +1,5 @@
 # Ignore the build directory
 /file1
 
-# Ignore IDE specific files
-*.md
+# ignore the file
+file3.md
